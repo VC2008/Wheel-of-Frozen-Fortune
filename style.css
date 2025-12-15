@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     background: #333;
 }
-.container .wheel {
+.container {
     position: relative;
     width: 400px;
     height: 400px;
@@ -21,4 +21,21 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+.container .spinbtn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    border: 4px solid #333;
+    cursor: pointer;
+    user-select: none;
 }
