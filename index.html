@@ -1,71 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Wheel of Frozen Fortune</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"/>
-         <link rel="stylesheet" href="style.css" />
-    </head>
-
-    <body>
-        <header>
-            <div class="text-center my-4">
-                <h1>Wheel of Frozen Fortune</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Frozen</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.typekit.net/mtm4vxw.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/mtm4vxw.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wheel of Frozen Fortune</h1>
+        <h2>Spin the wheel to determine your FATE for the winter</h2>
+        
+        <div class="wheel-container">
+            <div class="pointer"></div>
+            <div class="wheel-outer-ring"></div>
+            <div class="wheel" id="wheel">
+                <canvas id="wheelCanvas" width="500" height="500"></canvas>
             </div>
-        </header>
-        <main>
-                <div class="row">
-                    <div class="col-md-12 text-center mt-4">
-                        <h2>Your Fate is...</h2>
-                     <div class="col-md-6 text-center">
-                        <canvas id="wheelCanvas" width="400" height="400"></canvas>
-                        <button id="spinButton" class="btn btn-primary mt-3">Spin the Wheel!</button>
-                    </div>
-                    </div>
-                </div>
-                <div class="spinBtn">Spin</div>
-                <div class="wheel">
-                    <div class="number" style="--i:1;--clr:#9a18b4;"><span>100</span></div>
-                     <div class="number" style="--i:2;--clr:#da8019;"><span>50</span></div>
-                      <div class="number" style="--i:3;--clr:#1815e7;"><span>25</span></div>
-                       <div class="number" style="--i:4;--clr:#707070;"><span>5</span></div>
-                        <div class="number" style="--i:5;--clr:#70db7e;"><span>250</span></div>
-                         <div class="number" style="--i:6;--clr:#ff0000;"><span>Death</span></div>
-                          <div class="number" style="--i:7;--clr:#fcff44;"><span>25</span></div>
-                           <div class="number" style="--i:8;--clr:#2e2e2e;"><span>5</span></div>
+        </div>
 
-                </div>
-            </div>
-            <!--End of Div Container-->
-        </main>
-        <footer>
-            <div class="text-center my-4">
-                <p>&copy; 2025 Wheel of Frozen Fortune</p>
+        <div>
+            <button class="spin-button" id="spinButton">SPIN THE WHEEL</button>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <div class="result-label">YOU LANDED ON:</div>
+            <div class="result-value" id="resultValue"></div>
+        </div>
+    </div>
+   <footer class="footer">
+            <div class="footer-links">
+                <a href="https://github.com/USERNAME1" target="_blank">
+                    <i class="fab fa-github"></i> 
+                </a>
+                <a href="https://github.com/USERNAME2" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
         </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-
-        <script src="script.js"></script>
-    </body>
+<script src="script.js"></script>
+</body>
 </html>
