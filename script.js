@@ -1,15 +1,15 @@
   const segments = [
-            { value: 'Good fortune until summer...', color: '#720000ff', textColor: '#fff' },
-            { value: 'Tensions with friends', color: '#3b5774ff', textColor: '#fff' },
-            { value: 'Not much...', color: '#4e4e4eff', textColor: '#000' },
+            { value: 'Good fortune until summer...', color: '#d32f2f', textColor: '#fff' },
+            { value: 'Tensions with friends', color: '#1976d2', textColor: '#fff' },
+            { value: 'Not much...', color: '#f9a825', textColor: '#000' },
             { value: 'suspicious giftings', color: '#7b1fa2', textColor: '#fff' },
             { value: 'A warm winter?', color: '#388e3c', textColor: '#fff' },
-            { value: 'Many blessings!', color: '#b1a500ff', textColor: '#000' },
-            { value: 'Closer bonding with family', color: '#fb8affff', textColor: '#fff' },
-            { value: 'Winter of Working', color: '#a6d2ffff', textColor: '#fff' },
+            { value: 'Many blessings!', color: '#ffd700', textColor: '#000' },
+            { value: 'Closer bonding with family', color: '#f57c00', textColor: '#fff' },
+            { value: 'Winter of Working', color: '#1976d2', textColor: '#fff' },
             { value: 'Better fate once winter ends', color: '#d32f2f', textColor: '#fff' },
             { value: 'fair winter, but you can reroll', color: '#388e3c', textColor: '#fff' },
-            { value: 'A peaceful winter', color: '#6095b4ff', textColor: '#000' },
+            { value: 'A peaceful winter', color: '#f9a825', textColor: '#000' },
             { value: 'DEATH', color: '#1a1a1a', textColor: '#fff' }
         ];
 
